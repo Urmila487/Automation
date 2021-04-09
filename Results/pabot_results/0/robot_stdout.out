@@ -1,0 +1,24 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Datadriventesting1                                                     
+==============================================================================
+Right User Empty Password                                             | PASS |
+------------------------------------------------------------------------------
+Right User Wrong Password                                             | PASS |
+------------------------------------------------------------------------------
+Wrong User Wrong Password                                             | PASS |
+------------------------------------------------------------------------------
+Wrong User Right Password                                             | PASS |
+------------------------------------------------------------------------------
+Wrong User Empty Password                                             | PASS |
+------------------------------------------------------------------------------
+Suites.Datadriventesting1                                             | PASS |
+5 critical tests, 5 passed, 0 failed
+5 tests total, 5 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+5 critical tests, 5 passed, 0 failed
+5 tests total, 5 passed, 0 failed
+==============================================================================
+Output:  C:\Users\rvadi\PycharmProjects\pythonProject\Automation\Results\pabot_results\0\output.xml

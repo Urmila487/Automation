@@ -13,3 +13,4 @@ TC_opensource_element
 
     capture element screenshot  xpath://*[@id="divLogo"]/img  logo1.png
     capture page screenshot  login123.png
+

@@ -21,5 +21,6 @@ TC_003_Radiobutton
     input text  id:Password  Urmi@123
     input text  id:ConfirmPassword  Urmi@123
 
+
     ${speed1}=  get selenium speed
     log to console  ${speed1}

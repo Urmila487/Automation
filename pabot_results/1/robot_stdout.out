@@ -1,0 +1,18 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Datadriventestingusingxls                                              
+==============================================================================
+Login test with Excel using admin@admin.com and Admin                 | PASS |
+------------------------------------------------------------------------------
+Login test with Excel using admin1@gmail.com and Adminn               | PASS |
+------------------------------------------------------------------------------
+Login test with Excel using admin123@admin.com and adm                | PASS |
+------------------------------------------------------------------------------
+Suites.Datadriventestingusingxls                                      | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\rvadi\PycharmProjects\pythonProject\Automation\pabot_results\1\output.xml

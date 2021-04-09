@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.2 on win32)" generated="20210406 22:58:23.441" rpa="false">
+<suite id="s1" name="Captureelement" source="C:\Users\rvadi\PycharmProjects\pythonProject\Automation\TestCases\captureelement.robot">
+<test id="s1-t1" name="TC_opensource_element">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://opensource-demo.orangehrmlive.com/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20210406 22:58:23.898" level="INFO">Opening browser 'Chrome' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
+<status status="PASS" starttime="20210406 22:58:23.898" endtime="20210406 22:58:36.884"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:txtUsername</arg>
+<arg>Urmila</arg>
+</arguments>
+<msg timestamp="20210406 22:58:36.885" level="INFO">Typing text 'Urmila' into text field 'name:txtUsername'.</msg>
+<status status="PASS" starttime="20210406 22:58:36.885" endtime="20210406 22:58:37.179"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:txtPassword</arg>
+<arg>Urmila@123</arg>
+</arguments>
+<msg timestamp="20210406 22:58:37.180" level="INFO">Typing text 'Urmila@123' into text field 'name:txtPassword'.</msg>
+<status status="PASS" starttime="20210406 22:58:37.180" endtime="20210406 22:58:37.462"></status>
+</kw>
+<kw name="Capture Element Screenshot" library="SeleniumLibrary">
+<doc>Captures screenshot from the element identified by ``locator`` and embeds it into log file.</doc>
+<arguments>
+<arg>xpath://*[@id="divLogo"]/img</arg>
+<arg>logo1.png</arg>
+</arguments>
+<msg timestamp="20210406 22:58:37.842" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="logo1.png"&gt;&lt;img src="logo1.png" width="400px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210406 22:58:37.465" endtime="20210406 22:58:37.843"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<arguments>
+<arg>login123.png</arg>
+</arguments>
+<msg timestamp="20210406 22:58:38.203" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="login123.png"&gt;&lt;img src="login123.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210406 22:58:37.846" endtime="20210406 22:58:38.203"></status>
+</kw>
+<status status="PASS" starttime="20210406 22:58:23.895" endtime="20210406 22:58:38.205" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210406 22:58:23.445" endtime="20210406 22:58:38.207"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Captureelement">Captureelement</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

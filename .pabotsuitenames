@@ -1,0 +1,7 @@
+datasources:b1db14a46e254aa3227c354f6b8b0eebf03d9414
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:1dbe1ca64ee7d3574bf709020303d7823952c084
+--suite Suites.Datadriventesting1
+--suite Suites.Datadriventestingusingxls
+--suite Suites.Datadrivenusingcsv
